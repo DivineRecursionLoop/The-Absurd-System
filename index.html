@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Absurd System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="top-bar">
+    <h1 id="scenario-title">The Beige Bureaucracy</h1>
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+    <span id="cleverness">Cleverness Points: 0</span>
+  </div>
+
+  <div id="center-area">
+    <svg id="scenario-illustration" width="600" height="400">
+      <rect x="50" y="50" width="500" height="300" fill="#f5f3e7" stroke="#ccc" stroke-width="3"/>
+      <text id="illustration-text" x="300" y="100" text-anchor="middle" font-size="24" fill="#555">Paperwork Mountain</text>
+      <circle class="challenge" id="challenge1" cx="200" cy="250" r="25" fill="red"/>
+      <circle class="challenge" id="challenge2" cx="300" cy="250" r="25" fill="red"/>
+      <circle class="challenge" id="challenge3" cx="400" cy="250" r="25" fill="red"/>
+    </svg>
+  </div>
+
+  <div id="bottom-panel">
+    <button class="card" data-card="logic">Logic Override</button>
+    <button class="card" data-card="tech">Tech Hack</button>
+    <button class="card" data-card="diplomacy">Diplomatic Genius</button>
+    <button class="card" data-card="creative">Creative Distraction</button>
+  </div>
+
+  <div id="navigation">
+    <button class="nav-btn" data-scenario="0">Scenario 1</button>
+    <button class="nav-btn" data-scenario="1">Scenario 2</button>
+    <button class="nav-btn" data-scenario="2">Scenario 3</button>
+    <button class="nav-btn" data-scenario="3">Scenario 4</button>
+  </div>
+
+  <div id="popup" class="hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
