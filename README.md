@@ -1,4 +1,5 @@
 # **The Absurd System**
+My first attempt at a game i'm already losing interest... Lol maybe I'll fix it probably not.
 
 **The Absurd System** is a humorous, browser-based card strategy game where you tackle bureaucratic chaos, hamster-powered economies, and creativity bans—one absurd scenario at a time. Use your **Innovation Cards**—Logic, Tech, Diplomatic, and Creative—to solve quirky challenges, animate citizens, and restore order in a world where paperwork and red tape reign supreme.
 
